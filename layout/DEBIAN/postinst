@@ -1,0 +1,7 @@
+#!/bin/sh
+
+if test -f "/var/mobile/Library/Preferences/com.nld.snapfolder.plist"; then 
+echo "File exists"
+else
+echo "creating blank file"
+echo >/var/mobile/Library/Preferences/com.nld.snapfolder.plist;fi
